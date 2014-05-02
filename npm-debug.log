@@ -1,0 +1,133 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ibara/.nvm/v0.10.26/bin/node',
+1 verbose cli   '/home/ibara/.nvm/v0.10.26/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '.' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/ibara/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/tmp.tgz
+12 verbose folder .
+13 info prepublish grunt-octave@0.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /home/ibara/.npm/1f1177db-tar.lock
+16 silly lockFile 8bc4ae86-39168-0-9316947064362466-tmp-tgz tar:///home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/tmp.tgz
+17 verbose lock tar:///home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/tmp.tgz /home/ibara/.npm/8bc4ae86-39168-0-9316947064362466-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 8bc4ae86-39168-0-9316947064362466-tmp-tgz tar:///home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/tmp.tgz
+21 silly lockFile 8bc4ae86-39168-0-9316947064362466-tmp-tgz tar:///home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/tmp.tgz
+22 verbose tar unpack /home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/tmp.tgz
+23 silly lockFile d92ff786-39168-0-9316947064362466-package tar:///home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/package
+24 verbose lock tar:///home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/package /home/ibara/.npm/d92ff786-39168-0-9316947064362466-package.lock
+25 silly lockFile 8bc4ae86-39168-0-9316947064362466-tmp-tgz tar:///home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/tmp.tgz
+26 verbose lock tar:///home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/tmp.tgz /home/ibara/.npm/8bc4ae86-39168-0-9316947064362466-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+34 silly gunzTarPerm extractEntry LICENSE
+35 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+36 silly gunzTarPerm extractEntry tasks/octave.js
+37 silly gunzTarPerm modified mode [ 'tasks/octave.js', 438, 420 ]
+38 silly lockFile d92ff786-39168-0-9316947064362466-package tar:///home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/package
+39 silly lockFile d92ff786-39168-0-9316947064362466-package tar:///home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/package
+40 silly lockFile 8bc4ae86-39168-0-9316947064362466-tmp-tgz tar:///home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/tmp.tgz
+41 silly lockFile 8bc4ae86-39168-0-9316947064362466-tmp-tgz tar:///home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/tmp.tgz
+42 verbose tar pack [ '/home/ibara/.npm/grunt-octave/0.0.0/package.tgz',
+42 verbose tar pack   '/home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/package' ]
+43 verbose tarball /home/ibara/.npm/grunt-octave/0.0.0/package.tgz
+44 verbose folder /home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/package
+45 silly lockFile d92ff786-39168-0-9316947064362466-package tar:///home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/package
+46 verbose lock tar:///home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/package /home/ibara/.npm/d92ff786-39168-0-9316947064362466-package.lock
+47 silly lockFile 4a6e638a-m-grunt-octave-0-0-0-package-tgz tar:///home/ibara/.npm/grunt-octave/0.0.0/package.tgz
+48 verbose lock tar:///home/ibara/.npm/grunt-octave/0.0.0/package.tgz /home/ibara/.npm/4a6e638a-m-grunt-octave-0-0-0-package-tgz.lock
+49 silly lockFile d92ff786-39168-0-9316947064362466-package tar:///home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/package
+50 silly lockFile d92ff786-39168-0-9316947064362466-package tar:///home/ibara/tmp/npm-3560-8N25C2Zr/1399020439168-0.9316947064362466/package
+51 silly lockFile 4a6e638a-m-grunt-octave-0-0-0-package-tgz tar:///home/ibara/.npm/grunt-octave/0.0.0/package.tgz
+52 silly lockFile 4a6e638a-m-grunt-octave-0-0-0-package-tgz tar:///home/ibara/.npm/grunt-octave/0.0.0/package.tgz
+53 silly lockFile d84bccec-a-npm-grunt-octave-0-0-0-package /home/ibara/.npm/grunt-octave/0.0.0/package
+54 verbose lock /home/ibara/.npm/grunt-octave/0.0.0/package /home/ibara/.npm/d84bccec-a-npm-grunt-octave-0-0-0-package.lock
+55 silly lockFile d84bccec-a-npm-grunt-octave-0-0-0-package /home/ibara/.npm/grunt-octave/0.0.0/package
+56 silly lockFile d84bccec-a-npm-grunt-octave-0-0-0-package /home/ibara/.npm/grunt-octave/0.0.0/package
+57 verbose tar unpack /home/ibara/.npm/grunt-octave/0.0.0/package.tgz
+58 silly lockFile b1fb0be6-a-npm-grunt-octave-0-0-0-package tar:///home/ibara/.npm/grunt-octave/0.0.0/package
+59 verbose lock tar:///home/ibara/.npm/grunt-octave/0.0.0/package /home/ibara/.npm/b1fb0be6-a-npm-grunt-octave-0-0-0-package.lock
+60 silly lockFile 4a6e638a-m-grunt-octave-0-0-0-package-tgz tar:///home/ibara/.npm/grunt-octave/0.0.0/package.tgz
+61 verbose lock tar:///home/ibara/.npm/grunt-octave/0.0.0/package.tgz /home/ibara/.npm/4a6e638a-m-grunt-octave-0-0-0-package-tgz.lock
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 silly gunzTarPerm extractEntry package.json
+64 silly gunzTarPerm extractEntry .npmignore
+65 silly gunzTarPerm extractEntry README.md
+66 silly gunzTarPerm extractEntry LICENSE
+67 silly gunzTarPerm extractEntry tasks/octave.js
+68 silly lockFile b1fb0be6-a-npm-grunt-octave-0-0-0-package tar:///home/ibara/.npm/grunt-octave/0.0.0/package
+69 silly lockFile b1fb0be6-a-npm-grunt-octave-0-0-0-package tar:///home/ibara/.npm/grunt-octave/0.0.0/package
+70 silly lockFile 4a6e638a-m-grunt-octave-0-0-0-package-tgz tar:///home/ibara/.npm/grunt-octave/0.0.0/package.tgz
+71 silly lockFile 4a6e638a-m-grunt-octave-0-0-0-package-tgz tar:///home/ibara/.npm/grunt-octave/0.0.0/package.tgz
+72 verbose chmod /home/ibara/.npm/grunt-octave/0.0.0/package.tgz 644
+73 verbose chown /home/ibara/.npm/grunt-octave/0.0.0/package.tgz [ 1000, 1000 ]
+74 silly lockFile 3a52ce78- .
+75 silly lockFile 3a52ce78- .
+76 silly publish { name: 'grunt-octave',
+76 silly publish   version: '0.0.0',
+76 silly publish   description: 'grunt octave plugin',
+76 silly publish   keywords: [ 'gruntplugin', 'octave' ],
+76 silly publish   author: { name: 'ibara1454' },
+76 silly publish   repository: { type: 'git', url: 'git://github.com/ibara1454/grunt-octave' },
+76 silly publish   license: 'GPLv3',
+76 silly publish   devDependencies: {},
+76 silly publish   readme: 'grunt-octave\n============\nGrunt plugin to start octave as task.\n\n### Usage Examples\n\n```js\n\nmodule.exports = function(grunt) {\n\tgrunt.loadNpmTasks(\'grunt-octave\');\n\n\tgrunt.initConfig({\n\t\toctave: {\n\t\t\toptions: [],\n\t\t\ttarget1: {\n\t\t\t\tsrc: "#{your_src_path}",\n\t\t\t\toptions: [\'--silent\']\n\t\t\t},\n\t\t\ttarget2: {\n\t\t\t\tsrc: "#{your_src_path}",\n\t\t\t}\n\t\t}\n\t});\n};\n```',
+76 silly publish   readmeFilename: 'README.md',
+76 silly publish   bugs: { url: 'https://github.com/ibara1454/grunt-octave/issues' },
+76 silly publish   homepage: 'https://github.com/ibara1454/grunt-octave',
+76 silly publish   _id: 'grunt-octave@0.0.0',
+76 silly publish   dist: { shasum: 'e07d4172e78a5cae93384a79394e7f9990267fde' },
+76 silly publish   _from: '.' }
+77 verbose url raw grunt-octave
+78 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-octave' ]
+79 verbose url resolved https://registry.npmjs.org/grunt-octave
+80 info trying registry request attempt 1 at 16:47:19
+81 http PUT https://registry.npmjs.org/grunt-octave
+82 http 403 https://registry.npmjs.org/grunt-octave
+83 error publish Failed PUT 403
+84 error Error: forbidden Cannot replace previously published version: 0.0.0: grunt-octave
+84 error     at RegClient.<anonymous> (/home/ibara/.nvm/v0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+84 error     at Request.self.callback (/home/ibara/.nvm/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:123:22)
+84 error     at Request.EventEmitter.emit (events.js:98:17)
+84 error     at Request.<anonymous> (/home/ibara/.nvm/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:893:14)
+84 error     at Request.EventEmitter.emit (events.js:117:20)
+84 error     at IncomingMessage.<anonymous> (/home/ibara/.nvm/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:844:12)
+84 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+84 error     at _stream_readable.js:920:16
+84 error     at process._tickCallback (node.js:415:13)
+85 error If you need help, you may report this *entire* log,
+85 error including the npm and node versions, at:
+85 error     <http://github.com/npm/npm/issues>
+86 error System Linux 3.13.0-24-generic
+87 error command "/home/ibara/.nvm/v0.10.26/bin/node" "/home/ibara/.nvm/v0.10.26/bin/npm" "publish" "."
+88 error cwd /home/ibara/Dropbox/Project/grunt-octave
+89 error node -v v0.10.26
+90 error npm -v 1.4.3
+91 verbose exit [ 1, true ]
